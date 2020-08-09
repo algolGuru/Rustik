@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+
+    <header class="header">
+        <div class="inner">
+            <div class="logo">
+                <a href="index.html">
+                    <svg width="178" height="18" viewBox="0 0 178 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5874 1.20312C8.05225 1.20312 9.20654 1.58105 10.0503 2.33691C10.8999 3.08691 11.3247 4.07129 11.3247 5.29004C11.3247 6.51465 10.8999 7.49902 10.0503 8.24316C9.20654 8.9873 8.05225 9.35938 6.5874 9.35938H4.42529V12.1982L5.79639 12.4619V14H0.496582V12.4619L1.85889 12.1982V3.01367L0.496582 2.75V1.20312H1.85889H6.5874ZM4.42529 7.38184H6.5874C7.30225 7.38184 7.84131 7.18848 8.20459 6.80176C8.57373 6.40918 8.7583 5.91113 8.7583 5.30762C8.7583 4.69238 8.57373 4.18555 8.20459 3.78711C7.84131 3.38281 7.30225 3.18066 6.5874 3.18066H4.42529V7.38184ZM18.1626 14C18.0923 13.8418 18.0308 13.6807 17.978 13.5166C17.9253 13.3467 17.8843 13.1768 17.855 13.0068C17.5503 13.3584 17.1782 13.6426 16.7388 13.8594C16.3052 14.0762 15.8071 14.1846 15.2446 14.1846C14.313 14.1846 13.5718 13.9326 13.021 13.4287C12.4761 12.9189 12.2036 12.2275 12.2036 11.3545C12.2036 10.4639 12.561 9.77539 13.2759 9.28906C13.9907 8.80273 15.0396 8.55957 16.4224 8.55957H17.7319V7.62793C17.7319 7.1709 17.6001 6.81641 17.3364 6.56445C17.0728 6.3125 16.6831 6.18652 16.1675 6.18652C15.8745 6.18652 15.6138 6.22168 15.3853 6.29199C15.1567 6.35645 14.9722 6.43555 14.8315 6.5293L14.6646 7.54883H12.731L12.7397 5.43945C13.2085 5.12305 13.7446 4.85645 14.3481 4.63965C14.9575 4.42285 15.6196 4.31445 16.3345 4.31445C17.5122 4.31445 18.4673 4.60449 19.1997 5.18457C19.938 5.75879 20.3071 6.5791 20.3071 7.64551V11.5742C20.3071 11.7207 20.3071 11.8584 20.3071 11.9873C20.313 12.1162 20.3247 12.2393 20.3423 12.3564L21.1245 12.4619V14H18.1626ZM15.939 12.2861C16.3257 12.2861 16.6772 12.2041 16.9937 12.04C17.3101 11.8701 17.5562 11.6592 17.7319 11.4072V9.95703H16.4224C15.8774 9.95703 15.4644 10.0859 15.1831 10.3438C14.9019 10.5957 14.7612 10.9004 14.7612 11.2578C14.7612 11.5801 14.8638 11.832 15.0688 12.0137C15.2798 12.1953 15.5698 12.2861 15.939 12.2861ZM22.1616 9.32422C22.1616 7.82422 22.4868 6.61426 23.1372 5.69434C23.7935 4.77441 24.7104 4.31445 25.8882 4.31445C26.4214 4.31445 26.8901 4.43457 27.2944 4.6748C27.6987 4.90918 28.0444 5.24609 28.3315 5.68555L28.5161 4.49023H30.7485V13.7188C30.7485 14.9727 30.353 15.9717 29.562 16.7158C28.7769 17.4658 27.6958 17.8408 26.3188 17.8408C25.8384 17.8408 25.3286 17.7734 24.7896 17.6387C24.2505 17.5098 23.7524 17.3311 23.2954 17.1025L23.77 15.3008C24.1802 15.4766 24.5903 15.6143 25.0005 15.7139C25.4106 15.8193 25.8442 15.8721 26.3013 15.8721C26.9282 15.8721 27.397 15.6816 27.7075 15.3008C28.0181 14.9199 28.1733 14.3896 28.1733 13.71V13.0859C27.8921 13.4434 27.561 13.7158 27.1802 13.9033C26.7993 14.0908 26.3628 14.1846 25.8706 14.1846C24.7046 14.1846 23.7935 13.7568 23.1372 12.9014C22.4868 12.04 22.1616 10.9092 22.1616 9.50879V9.32422ZM24.728 9.50879C24.728 10.3408 24.8687 10.9971 25.1499 11.4775C25.4312 11.9521 25.8882 12.1895 26.521 12.1895C26.9136 12.1895 27.2446 12.1191 27.5142 11.9785C27.7896 11.832 28.0093 11.6211 28.1733 11.3457V7.21484C28.0093 6.92773 27.7896 6.70508 27.5142 6.54688C27.2446 6.38867 26.9194 6.30957 26.5386 6.30957C25.9116 6.30957 25.4517 6.58789 25.1587 7.14453C24.8716 7.70117 24.728 8.42773 24.728 9.32422V9.50879ZM36.8394 14.1846C35.4683 14.1846 34.3726 13.7451 33.5522 12.8662C32.7319 11.9873 32.3218 10.8711 32.3218 9.51758V9.16602C32.3218 7.75391 32.7085 6.59082 33.4819 5.67676C34.2612 4.7627 35.3042 4.30859 36.6108 4.31445C37.894 4.31445 38.8901 4.70117 39.5991 5.47461C40.3081 6.24805 40.6626 7.29395 40.6626 8.6123V10.0098H34.9849L34.9673 10.0625C35.0142 10.6895 35.2222 11.2051 35.5913 11.6094C35.9663 12.0137 36.4731 12.2158 37.1118 12.2158C37.6802 12.2158 38.1519 12.1602 38.5269 12.0488C38.9019 11.9316 39.312 11.75 39.7573 11.5039L40.4517 13.0859C40.0591 13.3965 39.5493 13.6572 38.9224 13.8682C38.3013 14.0791 37.6069 14.1846 36.8394 14.1846ZM36.6108 6.29199C36.1362 6.29199 35.7612 6.47363 35.4858 6.83691C35.2104 7.2002 35.0405 7.67773 34.9761 8.26953L35.0024 8.31348H38.1489V8.08496C38.1489 7.54004 38.02 7.10645 37.7622 6.78418C37.5103 6.45605 37.1265 6.29199 36.6108 6.29199ZM55.9556 5.29004H54.0308L53.6968 3.53223C53.4741 3.3916 53.1489 3.26855 52.7212 3.16309C52.2935 3.05762 51.8394 3.00488 51.3589 3.00488C50.6558 3.00488 50.1108 3.1543 49.7241 3.45312C49.3433 3.74609 49.1528 4.12695 49.1528 4.5957C49.1528 5.0293 49.3521 5.38672 49.7505 5.66797C50.1548 5.94336 50.8491 6.23633 51.8335 6.54688C53.2456 6.93945 54.3149 7.45801 55.0415 8.10254C55.7739 8.74707 56.1401 9.59375 56.1401 10.6426C56.1401 11.7383 55.7065 12.6025 54.8394 13.2354C53.9722 13.8682 52.8296 14.1846 51.4116 14.1846C50.3979 14.1846 49.481 14.0234 48.6606 13.7012C47.8462 13.3789 47.1665 12.9336 46.6216 12.3652V9.69336H48.6079L48.8804 11.5127C49.1382 11.7236 49.4868 11.8994 49.9263 12.04C50.3716 12.1748 50.8667 12.2422 51.4116 12.2422C52.1147 12.2422 52.6479 12.0986 53.0112 11.8115C53.3804 11.5244 53.5649 11.1406 53.5649 10.6602C53.5649 10.168 53.3892 9.77246 53.0376 9.47363C52.6919 9.1748 52.0825 8.89355 51.2095 8.62988C49.6919 8.19043 48.5435 7.66895 47.7642 7.06543C46.9849 6.46191 46.5952 5.63574 46.5952 4.58691C46.5952 3.5498 47.0347 2.70313 47.9136 2.04688C48.7925 1.38477 49.897 1.04492 51.2271 1.02734C52.2114 1.02734 53.1079 1.17676 53.9165 1.47559C54.7251 1.77441 55.4048 2.17285 55.9556 2.6709V5.29004ZM57.019 6.03711V4.49023H60.7456L60.8687 5.59766C61.1499 5.1875 61.4868 4.87109 61.8794 4.64844C62.272 4.42578 62.729 4.31445 63.2505 4.31445C64.4282 4.31445 65.3423 4.77441 65.9927 5.69434C66.6431 6.61426 66.9683 7.82422 66.9683 9.32422V9.50879C66.9683 10.915 66.6431 12.0459 65.9927 12.9014C65.3423 13.7568 64.4341 14.1846 63.2681 14.1846C62.77 14.1846 62.3276 14.0938 61.9409 13.9121C61.5542 13.7246 61.2231 13.4521 60.9478 13.0947V15.8457L62.187 16.1094V17.6562H57.1509V16.1094L58.3901 15.8457V6.30078L57.019 6.03711ZM64.4019 9.32422C64.4019 8.42773 64.2524 7.70117 63.9536 7.14453C63.6548 6.58789 63.1978 6.30957 62.5825 6.30957C62.1958 6.30957 61.8647 6.38867 61.5894 6.54688C61.3198 6.70508 61.106 6.93066 60.9478 7.22363V11.3896C61.106 11.6592 61.3198 11.8643 61.5894 12.0049C61.8647 12.1455 62.2017 12.2158 62.6001 12.2158C63.2212 12.2158 63.6753 11.9727 63.9624 11.4863C64.2554 11 64.4019 10.3408 64.4019 9.50879V9.32422ZM72.6636 14.1846C71.2925 14.1846 70.1968 13.7451 69.3765 12.8662C68.5562 11.9873 68.146 10.8711 68.146 9.51758V9.16602C68.146 7.75391 68.5327 6.59082 69.3062 5.67676C70.0854 4.7627 71.1284 4.30859 72.4351 4.31445C73.7183 4.31445 74.7144 4.70117 75.4233 5.47461C76.1323 6.24805 76.4868 7.29395 76.4868 8.6123V10.0098H70.8091L70.7915 10.0625C70.8384 10.6895 71.0464 11.2051 71.4155 11.6094C71.7905 12.0137 72.2974 12.2158 72.936 12.2158C73.5044 12.2158 73.9761 12.1602 74.3511 12.0488C74.7261 11.9316 75.1362 11.75 75.5815 11.5039L76.2759 13.0859C75.8833 13.3965 75.3735 13.6572 74.7466 13.8682C74.1255 14.0791 73.4312 14.1846 72.6636 14.1846ZM72.4351 6.29199C71.9604 6.29199 71.5854 6.47363 71.3101 6.83691C71.0347 7.2002 70.8647 7.67773 70.8003 8.26953L70.8267 8.31348H73.9731V8.08496C73.9731 7.54004 73.8442 7.10645 73.5864 6.78418C73.3345 6.45605 72.9507 6.29199 72.4351 6.29199ZM82.2612 14.1846C80.8901 14.1846 79.7944 13.7451 78.9741 12.8662C78.1538 11.9873 77.7437 10.8711 77.7437 9.51758V9.16602C77.7437 7.75391 78.1304 6.59082 78.9038 5.67676C79.6831 4.7627 80.7261 4.30859 82.0327 4.31445C83.3159 4.31445 84.312 4.70117 85.021 5.47461C85.73 6.24805 86.0845 7.29395 86.0845 8.6123V10.0098H80.4067L80.3892 10.0625C80.436 10.6895 80.644 11.2051 81.0132 11.6094C81.3882 12.0137 81.895 12.2158 82.5337 12.2158C83.1021 12.2158 83.5737 12.1602 83.9487 12.0488C84.3237 11.9316 84.7339 11.75 85.1792 11.5039L85.8735 13.0859C85.481 13.3965 84.9712 13.6572 84.3442 13.8682C83.7231 14.0791 83.0288 14.1846 82.2612 14.1846ZM82.0327 6.29199C81.5581 6.29199 81.1831 6.47363 80.9077 6.83691C80.6323 7.2002 80.4624 7.67773 80.3979 8.26953L80.4243 8.31348H83.5708V8.08496C83.5708 7.54004 83.4419 7.10645 83.1841 6.78418C82.9321 6.45605 82.5483 6.29199 82.0327 6.29199ZM93.4937 12.8398C93.1948 13.2793 92.8403 13.6133 92.4302 13.8418C92.0259 14.0703 91.563 14.1846 91.0415 14.1846C89.8696 14.1846 88.9585 13.7568 88.3081 12.9014C87.6636 12.0459 87.3413 10.915 87.3413 9.50879V9.32422C87.3413 7.82422 87.6665 6.61426 88.3169 5.69434C88.9673 4.77441 89.8813 4.31445 91.0591 4.31445C91.5337 4.31445 91.9614 4.41992 92.3423 4.63086C92.7231 4.83594 93.0571 5.12891 93.3442 5.50977V2.09961L91.9731 1.83594V0.289062H93.3442H95.9106V12.1982L97.1411 12.4619V14H93.687L93.4937 12.8398ZM89.9077 9.50879C89.9077 10.3408 90.0454 10.9971 90.3208 11.4775C90.6021 11.9521 91.0591 12.1895 91.6919 12.1895C92.0669 12.1895 92.3921 12.1133 92.6675 11.9609C92.9429 11.8086 93.1685 11.5889 93.3442 11.3018V7.26758C93.1685 6.96289 92.9429 6.72852 92.6675 6.56445C92.3979 6.39453 92.0786 6.30957 91.7095 6.30957C91.0825 6.30957 90.6255 6.58789 90.3384 7.14453C90.0513 7.70117 89.9077 8.42773 89.9077 9.32422V9.50879ZM112.794 5.51855H110.887L110.624 3.81348C110.372 3.56152 110.052 3.3623 109.666 3.21582C109.285 3.06934 108.833 2.99609 108.312 2.99609C107.199 2.99609 106.34 3.40039 105.737 4.20898C105.139 5.01758 104.84 6.07227 104.84 7.37305V7.82129C104.84 9.12207 105.139 10.1797 105.737 10.9941C106.334 11.8086 107.178 12.2158 108.268 12.2158C108.772 12.2158 109.232 12.1426 109.648 11.9961C110.07 11.8496 110.395 11.6504 110.624 11.3984L110.887 9.69336H112.794V12.2246C112.279 12.8223 111.62 13.2998 110.817 13.6572C110.02 14.0088 109.126 14.1846 108.136 14.1846C106.419 14.1846 105.013 13.5898 103.917 12.4004C102.822 11.2109 102.274 9.68457 102.274 7.82129V7.39062C102.274 5.5332 102.819 4.00684 103.909 2.81152C104.999 1.61621 106.408 1.01855 108.136 1.01855C109.126 1.01855 110.02 1.2002 110.817 1.56348C111.614 1.9209 112.273 2.39551 112.794 2.9873V5.51855ZM114.042 9.15723C114.042 7.73926 114.438 6.5791 115.229 5.67676C116.026 4.76855 117.125 4.31445 118.525 4.31445C119.931 4.31445 121.03 4.76562 121.821 5.66797C122.618 6.57031 123.016 7.7334 123.016 9.15723V9.3418C123.016 10.7715 122.618 11.9375 121.821 12.8398C121.03 13.7363 119.937 14.1846 118.542 14.1846C117.13 14.1846 116.026 13.7363 115.229 12.8398C114.438 11.9375 114.042 10.7715 114.042 9.3418V9.15723ZM116.609 9.3418C116.609 10.209 116.761 10.9062 117.066 11.4336C117.371 11.9551 117.863 12.2158 118.542 12.2158C119.205 12.2158 119.688 11.9521 119.993 11.4248C120.303 10.8975 120.458 10.2031 120.458 9.3418V9.15723C120.458 8.31348 120.303 7.625 119.993 7.0918C119.682 6.55859 119.193 6.29199 118.525 6.29199C117.857 6.29199 117.371 6.55859 117.066 7.0918C116.761 7.625 116.609 8.31348 116.609 9.15723V9.3418ZM123.684 1.83594V0.289062H127.622V12.1982L128.861 12.4619V14H123.816V12.4619L125.055 12.1982V2.09961L123.684 1.83594ZM129.432 1.83594V0.289062H133.37V12.1982L134.609 12.4619V14H129.564V12.4619L130.803 12.1982V2.09961L129.432 1.83594ZM140.005 14.1846C138.634 14.1846 137.539 13.7451 136.718 12.8662C135.898 11.9873 135.488 10.8711 135.488 9.51758V9.16602C135.488 7.75391 135.875 6.59082 136.648 5.67676C137.427 4.7627 138.47 4.30859 139.777 4.31445C141.06 4.31445 142.056 4.70117 142.765 5.47461C143.474 6.24805 143.829 7.29395 143.829 8.6123V10.0098H138.151L138.133 10.0625C138.18 10.6895 138.388 11.2051 138.757 11.6094C139.132 12.0137 139.639 12.2158 140.278 12.2158C140.846 12.2158 141.318 12.1602 141.693 12.0488C142.068 11.9316 142.478 11.75 142.923 11.5039L143.618 13.0859C143.225 13.3965 142.715 13.6572 142.088 13.8682C141.467 14.0791 140.773 14.1846 140.005 14.1846ZM139.777 6.29199C139.302 6.29199 138.927 6.47363 138.652 6.83691C138.376 7.2002 138.207 7.67773 138.142 8.26953L138.168 8.31348H141.315V8.08496C141.315 7.54004 141.186 7.10645 140.928 6.78418C140.676 6.45605 140.292 6.29199 139.777 6.29199ZM149.515 12.2158C149.972 12.2158 150.338 12.084 150.614 11.8203C150.889 11.5508 151.027 11.1934 151.027 10.748H153.347L153.374 10.8008C153.397 11.7617 153.037 12.5674 152.292 13.2178C151.548 13.8623 150.623 14.1846 149.515 14.1846C148.097 14.1846 147.004 13.7363 146.237 12.8398C145.469 11.9434 145.085 10.792 145.085 9.38574V9.12207C145.085 7.72168 145.478 6.57031 146.263 5.66797C147.054 4.76562 148.179 4.31445 149.638 4.31445C150.406 4.31445 151.094 4.42871 151.704 4.65723C152.313 4.88574 152.82 5.20801 153.224 5.62402L153.259 8.16406H151.176L150.754 6.67871C150.625 6.56738 150.467 6.47656 150.28 6.40625C150.092 6.33008 149.878 6.29199 149.638 6.29199C148.912 6.29199 148.399 6.55566 148.1 7.08301C147.801 7.61035 147.652 8.29004 147.652 9.12207V9.38574C147.652 10.2354 147.79 10.9209 148.065 11.4424C148.34 11.958 148.824 12.2158 149.515 12.2158ZM158.331 2.16113V4.49023H160V6.29199H158.331V11.1348C158.331 11.5039 158.407 11.7676 158.559 11.9258C158.711 12.084 158.917 12.1631 159.174 12.1631C159.35 12.1631 159.502 12.1572 159.631 12.1455C159.766 12.1279 159.916 12.1016 160.08 12.0664L160.299 13.9209C160.012 14.0088 159.728 14.0732 159.447 14.1143C159.166 14.1611 158.861 14.1846 158.533 14.1846C157.648 14.1846 156.965 13.9414 156.485 13.4551C156.01 12.9688 155.773 12.1982 155.773 11.1436V6.29199H154.375V4.49023H155.773V2.16113H158.331ZM160.994 9.15723C160.994 7.73926 161.389 6.5791 162.18 5.67676C162.977 4.76855 164.076 4.31445 165.476 4.31445C166.882 4.31445 167.981 4.76562 168.772 5.66797C169.569 6.57031 169.967 7.7334 169.967 9.15723V9.3418C169.967 10.7715 169.569 11.9375 168.772 12.8398C167.981 13.7363 166.888 14.1846 165.494 14.1846C164.082 14.1846 162.977 13.7363 162.18 12.8398C161.389 11.9375 160.994 10.7715 160.994 9.3418V9.15723ZM163.56 9.3418C163.56 10.209 163.712 10.9062 164.017 11.4336C164.322 11.9551 164.814 12.2158 165.494 12.2158C166.156 12.2158 166.639 11.9521 166.944 11.4248C167.254 10.8975 167.41 10.2031 167.41 9.3418V9.15723C167.41 8.31348 167.254 7.625 166.944 7.0918C166.633 6.55859 166.144 6.29199 165.476 6.29199C164.808 6.29199 164.322 6.55859 164.017 7.0918C163.712 7.625 163.56 8.31348 163.56 9.15723V9.3418ZM171.277 12.4619L172.507 12.1982V6.30078L171.145 6.03711V4.49023H174.898L175.012 5.87891C175.235 5.38672 175.522 5.00293 175.874 4.72754C176.225 4.45215 176.632 4.31445 177.095 4.31445C177.23 4.31445 177.371 4.32617 177.517 4.34961C177.669 4.36719 177.795 4.39062 177.895 4.41992L177.623 6.75781L176.568 6.73145C176.193 6.73145 175.882 6.80469 175.636 6.95117C175.39 7.09766 175.203 7.30566 175.074 7.5752V12.1982L176.304 12.4619V14H171.277V12.4619Z" fill="#3A567A"/>
+                    </svg>
+                </a>
+            </div>
+            <nav>
+                <a href="#" class="nav_link">Single test</a>
+                <a href="#" class="nav_link">Bulk test</a>
+                <a href="#" class="nav_link">Scheduler</a>
+                <a href="#" class="nav_link">History</a>
+            </nav>
+            <div class="login">
+                <a href="#" class="login_link">Login / Registration</a>
+            </div>
+        </div>
+    </header><!-- .header-->
+
+    <main class="content">
+        <section id="form_section">
+            <div class="inner test">
+                <div class="analyze_input">
+                    <form>
+                        <label>
+                            <input type="text" name="analyze">
+                            <button class="button">Analyze</button>
+                        </label>
+                        <button class="button button-white">Entire website</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="test_result">
+            <div class="inner test">
+                <div class="test_info">
+                    <p class="test_date">Tested &nbsp 2020-jun-06 &nbsp 22:55:15</p>
+                    <a href="#" class="share">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.86778 7.53272C3.25078 7.53272 1.94458 8.84312 1.94458 10.4559C1.94458 12.0729 3.25498 13.3791 4.86778 13.3791C6.48478 13.3791 7.79098 12.0687 7.79098 10.4559C7.79098 8.84312 6.48058 7.53272 4.86778 7.53272ZM4.83838 11.7075C4.13488 11.7075 3.56158 11.1342 3.56158 10.4307C3.56158 9.72722 4.13488 9.15392 4.83838 9.15392C5.54188 9.15392 6.11518 9.72722 6.11518 10.4307C6.11518 11.1342 5.54188 11.7075 4.83838 11.7075ZM16.1322 6.05432C17.7492 6.05432 19.0554 4.74392 19.0554 3.13112C19.0554 1.51412 17.745 0.207916 16.1322 0.207916C14.5152 0.210016 13.209 1.52042 13.209 3.13322C13.2048 4.74392 14.5152 6.05432 16.1322 6.05432ZM16.1028 1.82702C16.8063 1.82702 17.3796 2.40032 17.3796 3.10382C17.3796 3.80732 16.8063 4.38062 16.1028 4.38062C15.3993 4.38062 14.826 3.80732 14.826 3.10382C14.826 2.40032 15.3993 1.82702 16.1028 1.82702ZM16.0902 14.9457C14.4732 14.9457 13.167 16.2561 13.167 17.8689C13.167 19.4859 14.4774 20.7921 16.0902 20.7921C17.7072 20.7921 19.0134 19.4817 19.0134 17.8689C19.0134 16.2561 17.703 14.9457 16.0902 14.9457ZM16.0608 19.1184C15.3573 19.1184 14.784 18.5451 14.784 17.8416C14.784 17.1381 15.3573 16.5648 16.0608 16.5648C16.7643 16.5648 17.3376 17.1381 17.3376 17.8416C17.3376 18.5451 16.7643 19.1184 16.0608 19.1184Z" fill="#4786FF"/>
+                            <path d="M14.4226 16.3674L7.6564 10.9494C7.2973 10.6596 6.7681 10.7184 6.4804 11.0796L6.43 11.1468C6.1402 11.5059 6.199 12.0351 6.5602 12.3228L13.3264 17.7366C13.6855 18.0264 14.2147 17.9676 14.5024 17.6064L14.5528 17.5392C14.8426 17.1843 14.788 16.6572 14.4226 16.3674Z" fill="#4786FF"/>
+                            <path d="M14.7461 3.5343L14.6957 3.4671C14.4269 3.0912 13.9082 2.9988 13.5281 3.2655L6.44265 8.24879C6.06675 8.51759 5.97435 9.03629 6.24105 9.41639L6.29145 9.48359C6.56025 9.85949 7.07895 9.95189 7.45905 9.68519L14.5487 4.6977C14.9225 4.4352 15.0086 3.9123 14.7461 3.5343Z" fill="#4786FF"/>
+                        </svg>
+                        Share
+                    </a>
+                </div>
+                <p class="url">Requested URL&nbsp<span class="red">redirected</span>&nbspto:  https://www.amazon.com/ref=rd_www_amazon_ru_en</p>
+                <div class="test_result">
+                    <h1>
+                        Page speed test for<br>
+                        <span>https://amazon.com/</span>
+                    </h1>
+                </div>
+                <div class="circles">
+                    <div class="progress_ring_container">
+                        <svg class="progress_ring" width="120" height="120">
+                            <circle class="progress_ring_circle" stroke="#00DC80" stroke-width="8" cx="60" cy="60" r="52" fill="transparent"/>
+                            <text class="svg_text" x="24%" y="67%" fill="#00DC80" font-size="55" font-weight="900"></text>
+                        </svg>
+                        <p>Mobile</p>
+                    </div>
+                    <div class="progress_ring_container">
+                        <svg class="progress_ring" width="120" height="120">
+                            <circle class="progress_ring_circle2" stroke="#00DC80" stroke-width="8" cx="60" cy="60" r="52" fill="transparent"/>
+                            <text class="svg_text2" x="24%" y="67%" fill="#00DC80" font-size="55" font-weight="900"></text>
+                        </svg>
+                        <p>Desktop</p>
+                    </div>
+                </div>
+                <div class="choose_device">
+                    <div class="device mobile device_active" onclick="chooseMobile()">
+                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.1667 0.841662L1.83341 0.833328C0.916748 0.833328 0.166748 1.58333 0.166748 2.49999V17.5C0.166748 18.4167 0.916748 19.1667 1.83341 19.1667H10.1667C11.0834 19.1667 11.8334 18.4167 11.8334 17.5V2.49999C11.8334 1.58333 11.0834 0.841662 10.1667 0.841662ZM10.1667 15.8333H1.83341V4.16666H10.1667V15.8333Z" fill="#66788E"/>
+                        </svg>
+                        <p>Mobile details</p>
+                    </div>
+                    <div class="device desktop" onclick="chooseDesktop()">
+                        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6667 12C17.5833 12 18.3333 11.25 18.3333 10.3333V1.99999C18.3333 1.08333 17.5833 0.333328 16.6667 0.333328H3.33333C2.41667 0.333328 1.66667 1.08333 1.66667 1.99999V10.3333C1.66667 11.25 2.41667 12 3.33333 12H0V13.6667H20V12H16.6667ZM3.33333 1.99999H16.6667V10.3333H3.33333V1.99999Z" fill="#66788E"/>
+                        </svg>
+                        <p>Desktop details</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="detail">
+            <div class="inner">
+                <div class="responsive_img">
+                    <img src="img/pred_img.png" alt="site_image">
+                </div>
+                <div class="detailed_data">
+                    <p class="detailed_info"><span class="black">Field Data</span> – The Chrome User Experience Report <a href="#" class="p_link">does not have sufficient real-world speed data</a> for this page.</p>
+                    <div class="graphics">
+                        <div class="chart">
+                            <div class="chart_text">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p class="chart_title">First Contentful Paint (FCP)</p>
+                                </div>
+                                <p class="time">2,1 s</p>
+                            </div>
+                            <div class="chart_lines line1">
+                                <div class="first">
+                                    28%
+                                </div>
+                                <div class="second">
+                                    61%
+                                </div>
+                                <div class="third">
+                                    11%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <div class="chart_text">
+                                <div>
+                                    <img src="img/warning%20Red.png" alt="warning red">
+                                    <p class="chart_title">First Input Delay (FID)</p>
+                                </div>
+                                <p class="time">230 ms</p>
+                            </div>
+                            <div class="chart_lines line2">
+                                <div class="first">
+                                    13%
+                                </div>
+                                <div class="second">
+                                    81%
+                                </div>
+                                <div class="third">
+                                    6%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <div class="chart_text">
+                                <div>
+                                    <img src="img/Good%20Green.png" alt="good">
+                                    <p class="chart_title">Largest Contentful Paint (LCP)</p>
+                                </div>
+                                <p class="time">2,1 s</p>
+                            </div>
+                            <div class="chart_lines line3">
+                                <div class="first">
+                                    83%
+                                </div>
+                                <div class="second">
+                                    11%
+                                </div>
+                                <div class="third">
+                                    6%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart">
+                            <div class="chart_text">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p class="chart_title">Cumulative Layout Shift (CLS)</p>
+                                </div>
+                                <p class="time">2,1 s</p>
+                            </div>
+                            <div class="chart_lines line4">
+                                <div class="first">
+                                    31%
+                                </div>
+                                <div class="second">
+                                    59%
+                                </div>
+                                <div class="third">
+                                    10%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="origin_summary">
+                        <div class="checkbox" onclick="switch_checkbox()">
+                            <img class="inactive_checkbox" src="img/checkbox.png" alt="checkbox">
+                            <img class="active_checkbox none" src="img/checkbox_active.png" alt="active checkbox">
+                            <p>Show Origin Summary</p>
+                        </div>
+                        <div class="origin_summary_info none">
+                            <p class="summary_info"><span class="black">Origin Summary</span> – Over the last 30 days, all pages served from this origin <span class="red">do not pass</span> the <a href="#" class="p_link">Core Web Vitals</a>  assessment. To view suggestions tailored to each page, analyze individual page URLs.</p>
+                            <div class="graphics">
+                                <div class="chart">
+                                    <div class="chart_text">
+                                        <div>
+                                            <img src="img/Warn%20Orange.png" alt="warn orange">
+                                            <p class="chart_title">First Contentful Paint (FCP)</p>
+                                        </div>
+                                        <p class="time">2,1 s</p>
+                                    </div>
+                                    <div class="chart_lines line1">
+                                        <div class="first">
+                                            28%
+                                        </div>
+                                        <div class="second">
+                                            61%
+                                        </div>
+                                        <div class="third">
+                                            11%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart">
+                                    <div class="chart_text">
+                                        <div>
+                                            <img src="img/warning%20Red.png" alt="warning red">
+                                            <p class="chart_title">First Input Delay (FID)</p>
+                                        </div>
+                                        <p class="time">230 ms</p>
+                                    </div>
+                                    <div class="chart_lines line2">
+                                        <div class="first">
+                                            13%
+                                        </div>
+                                        <div class="second">
+                                            81%
+                                        </div>
+                                        <div class="third">
+                                            6%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart">
+                                    <div class="chart_text">
+                                        <div>
+                                            <img src="img/Good%20Green.png" alt="good">
+                                            <p class="chart_title">Largest Contentful Paint (LCP)</p>
+                                        </div>
+                                        <p class="time">2,1 s</p>
+                                    </div>
+                                    <div class="chart_lines line3">
+                                        <div class="first">
+                                            83%
+                                        </div>
+                                        <div class="second">
+                                            11%
+                                        </div>
+                                        <div class="third">
+                                            6%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart">
+                                    <div class="chart_text">
+                                        <div>
+                                            <img src="img/Warn%20Orange.png" alt="warn orange">
+                                            <p class="chart_title">Cumulative Layout Shift (CLS)</p>
+                                        </div>
+                                        <p class="time">2,1 s</p>
+                                    </div>
+                                    <div class="chart_lines line4">
+                                        <div class="first">
+                                            31%
+                                        </div>
+                                        <div class="second">
+                                            59%
+                                        </div>
+                                        <div class="third">
+                                            10%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lab_data_info">
+                        <div class="lab_data">
+                            <h3>Lab Data</h3>
+                            <div class="arrows" id="lab_data_arrows">
+                                <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <ul class="list lab_list">
+                                <li class="list_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/Warn%20Orange.png" alt="warn orange">
+                                            <p>First Contentful Paint</p>
+                                        </div>
+                                        <p class="time">1.9 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        First Contentful Paint marks the time at which the first text or image is painted. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                                <li class="list_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/warning%20Red.png" alt="warning red">
+                                            <p>Speed Index</p>
+                                        </div>
+                                        <p class="time">1.7 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        Speed Index shows how quickly the contents of a page are visibly populated. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                                <li class="list_item_container last_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/warning%20Red.png" alt="warning red">
+                                            <p>Largest Contentful Paint</p>
+                                        </div>
+                                        <p class="time">2.3 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        Largest Contentful Paint marks the time at which the largest text or image is painted. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="list lab_list">
+                                <li class="list_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/Warn%20Orange.png" alt="warn orange">
+                                            <p>Time to Interactive</p>
+                                        </div>
+                                        <p class="time">1.9 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        Time to interactive is the amount of time it takes for the page to become fully interactive. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                                <li class="list_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/warning%20Red.png" alt="warning red">
+                                            <p>Total Blocking Time</p>
+                                        </div>
+                                        <p class="time">1.7 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                                <li class="list_item_container last_item_container">
+                                    <div class="list_item_container_title">
+                                        <div>
+                                            <img src="img/Good%20Green.png" alt="good red">
+                                            <p>Cumulative Layout Shift</p>
+                                        </div>
+                                        <p class="time">2.3 s</p>
+                                    </div>
+                                    <div class="list_item_container_info none">
+                                        Cumulative Layout Shift measures the movement of visible elements within the viewport. <a href="#" class="p_link">Learn more.</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                        <img src="img/download_img.png" alt="download progress">
+                    </div>
+                </div>
+                <div class="opportunities">
+                    <p><span class="black">Opportunities</span> – These suggestions can help your page load faster. They don't directly affect the Performance score.</p>
+                    <div class="opportunities_title">
+                        <p>Opportunity</p>
+                        <p>Estimated Savings</p>
+                    </div>
+                    <ul class="list">
+                        <li class="list_item">
+                            <div class="list_item_container first_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Properly size images</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                                <div class="list_item_title">
+                                    <p>Serve images that are appropriately-sized to save cellular data and improve load time. <a href="#" class="p_link">Learn more.</a></p>
+                                </div>
+                                <ul class="detail_table">
+                                    <li class="detail_table_title">
+                                        <p >Url</p>
+                                        <div>
+                                            <p>
+                                                Resource<br>Size
+                                            </p>
+                                            <p>
+                                                Potential<br>Saving
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Remove unused JavaScript</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Eliminate render-blocking resources</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Avoid multiple page redirects</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Serve images in next-gen formats</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Defer offscreen images</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Efficiently encode images</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                                <div class="list_item_title">
+                                    <p>Serve images that are appropriately-sized to save cellular data and improve load time. <a href="#" class="p_link">Learn more.</a></p>
+                                </div>
+                                <ul class="detail_table">
+                                    <li class="detail_table_title">
+                                        <p >Url</p>
+                                        <div>
+                                            <p>
+                                                Resource<br>Size
+                                            </p>
+                                            <p>
+                                                Potential<br>Saving
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/gray%20circle.png" alt="gray circle">
+                                    <p>Reduce the impact of third-party code – <span class="red">Third-party code blocked the main thread for 340 ms</span></p>
+                                </div>
+                                <div>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                                <div class="list_item_title">
+                                    <p>Serve images that are appropriately-sized to save cellular data and improve load time. <a href="#" class="p_link">Learn more.</a></p>
+                                </div>
+                                <ul class="detail_table">
+                                    <li class="detail_table_title">
+                                        <p >Url</p>
+                                        <div>
+                                            <p>
+                                                Resource<br>Size
+                                            </p>
+                                            <p>
+                                                Potential<br>Saving
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container last_item_container">
+                                <div>
+                                    <img src="img/gray%20circle.png" alt="gray circle">
+                                    <p>Avoid large layout shifts<span class="avoid"> – 5 elements found</span></p>
+                                </div>
+                                <div>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="passed">
+                    <div class="passed_item">
+                        <p><span class="black">Passed audits</span> (16)</p>
+                        <div>
+                            <div class="arrows" id="passed_arrows">
+                                <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list none">
+                        <li class="list_item">
+                            <div class="list_item_container first_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Properly size images</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows" onclick="">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                                <div class="list_item_title">
+                                    <p>Serve images that are appropriately-sized to save cellular data and improve load time. <a href="#" class="p_link">Learn more.</a></p>
+                                </div>
+                                <ul class="detail_table">
+                                    <li class="detail_table_title">
+                                        <p >Url</p>
+                                        <div>
+                                            <p>
+                                                Resource<br>Size
+                                            </p>
+                                            <p>
+                                                Potential<br>Saving
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/table_img.png" alt="img">
+                                        <div class="url_container">
+                                            <p class="table_url">...images-amazon.com/images/G/01/gateway/grid/test/outdoor_clothing2x._CB485…_.png</p>
+                                            <p class="url_info">(images-na.ssl-images-amazon.com)</p>
+                                        </div>
+                                        <div>
+                                            <p class="size">222.8 KB</p>
+                                            <p class="saving">88.6 KB</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_item_container">
+                                <div>
+                                    <img src="img/Warn%20Orange.png" alt="warn orange">
+                                    <p>Remove unused JavaScript</p>
+                                </div>
+                                <div class="line_container">
+                                    <div class="progress_line"></div>
+                                    <p class="time">1.9 s</p>
+                                    <div class="arrows">
+                                        <img class="arrow_top" src="img/arrow_top.png" alt="arrow top">
+                                        <img class="arrow_down none" src="img/arrow_down.png" alt="arrow down">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_item_detail none">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lighthouse">
+                    <img src="img/lighthouse.png" alt="lighthouse">
+                    <p>The <a href="#" class="p_link">speed score</a> is based on the lab data analyzed by <a href="#" class="p_link">Lighthouse.</a><br>
+                        Analysis time: 10.07.2020, 17:40:52<br>
+                        Version: 6.1.0</p>
+                </div>
+            </div>
+        </section>
+    </main><!-- .content -->
+
+</div><!-- .wrapper -->
+
+<footer class="footer">
+
+</footer><!-- .footer -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js" rel="script"></script>
+</body>
+</html>
